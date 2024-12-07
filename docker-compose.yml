@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  mysql:
+    image: 'bitnami/mysql:latest'
+    container_name: teddy_open_finance_mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: teddy_open_finance
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: root321
+    volumes:
+      - ./data/mysql:/bitnami/mysql/data

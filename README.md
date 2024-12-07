@@ -14,6 +14,11 @@ Rodar o Projeto
 3 - Iniciar o server 
     npm run start:dev 
 
+4 - rodar os testes
+    npm run test
+
+
+
 
 
 

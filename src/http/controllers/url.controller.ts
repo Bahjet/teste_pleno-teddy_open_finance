@@ -30,10 +30,7 @@ import {
   ApiTags,
 } from '@nestjs/swagger'
 import { env } from '@/env'
-import {
-  registerUrlSchemaSwagger,
-  urlIdSchemaSwagger,
-} from '@/schemas-documentation/schemas-payloas-controllers'
+import { registerUrlSchemaSwagger } from '@/schemas-documentation/schemas-payloas-controllers'
 
 @ApiTags('url')
 @Controller('/url')
